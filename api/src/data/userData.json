@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "email": "teste@gmail.com",
+    "password": "12345678",
+    "name": "Teste Login",
+    "birth": "1995-10-22T02:00:00.000Z",
+    "gender": "F"
+  },
+  {
+    "id": 1,
+    "email": "may@gmail.com",
+    "password": "12345678",
+    "name": "May",
+    "birth": "2000-09-21T00:00:00.000Z",
+    "gender": "X"
+  }
+]

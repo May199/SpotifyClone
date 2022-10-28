@@ -1,0 +1,23 @@
+.Logo img {
+  height: 40px;
+  width: 40px;
+  filter: invert(1);
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.Logo:hover {
+  color: white;
+}
+
+.Logo h1 {
+  margin-left: 5px;
+  font-size: 1.5rem;
+  color: white;
+}

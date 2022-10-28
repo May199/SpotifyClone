@@ -1,0 +1,57 @@
+.Update {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  padding: 100px 0;
+}
+
+.Update form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Update form input:not([type="radio"]) {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  width: 60vw;
+  max-width: 1000px;
+  min-width: 400px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: lightgray;
+}
+.Update form input[type="date"] {
+  margin-top: 0;
+}
+.Update form input {
+  transition: box-shadow 200ms;
+}
+.Update form input:focus {
+  box-shadow: 0 0 3px 3px rgb(58, 58, 58) ;
+}
+
+.Update form label {
+  color: lightgray;
+  font-size: 1.2rem;
+}
+
+.Update form .radio-group {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  max-width: 1000px;
+  min-width: 600px;
+  margin-bottom: 25px;
+}
+
+.Update .radio-group label{
+  margin-right: 15px;
+  margin-left: 5px;
+}

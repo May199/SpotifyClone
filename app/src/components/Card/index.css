@@ -1,0 +1,45 @@
+.Card {
+  display: flex;
+  margin: 10px;
+  transition: all 300ms;
+  text-decoration: none;
+  color: lightgray;
+}
+
+.Card div {
+  display: fixed;
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  background-color: #3bb465;
+  transition: all 200ms;
+}
+
+.Card span {
+  text-align: center;
+}
+
+.Card img {
+  width: inherit;
+  height: inherit;
+}
+
+.Card:hover div {
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed lightgray;
+  border-radius: 5px;
+}
+
+.add:hover {
+  border-color: #3bb465;
+}

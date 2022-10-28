@@ -1,0 +1,14 @@
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+}
+
+.Gallery {
+  max-width: none;
+  width: 100%;
+  justify-content: unset;
+  align-items: unset;
+}

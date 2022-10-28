@@ -1,0 +1,140 @@
+[
+  {
+    "playlistId": 0,
+    "songList": [
+      {
+        "id": 0,
+        "title": "Canil",
+        "path": "mp3/Canil/canil.mp3",
+        "author": "Canil"
+      },
+      {
+        "id": 1,
+        "title": "Dia",
+        "path": "mp3/Canil/dia.mp3",
+        "author": "Canil"
+      },
+      {
+        "id": 2,
+        "title": "Lar Podre Lar",
+        "path": "mp3/Canil/lar_podre_lar.mp3",
+        "author": "Canil"
+      }
+    ]
+  },
+  {
+    "playlistId": 1,
+    "songList": [
+      {
+        "id": 0,
+        "title": "Me entreguei ao Álcool",
+        "path": "mp3/Banda Marília Gabriela/Banda Marília Gabriela - Me entreguei ao Álcool (320 kbps).mp3",
+        "author": "Banda Marília Gabriela"
+      },
+      {
+        "id": 1,
+        "title": "Pirocóptero",
+        "path": "mp3/Banda Marília Gabriela/Banda Marília Gabriela - Pirocóptero (“De boa na Sala”) (320 kbps).mp3",
+        "author": "Banda Marília Gabriela"
+      },
+      {
+        "id": 2,
+        "title": "Que se Foda",
+        "path": "mp3/Banda Marília Gabriela/Banda Marília Gabriela - Que se Foda - (De Boa na Sala) (320 kbps).mp3",
+        "author": "Banda Marília Gabriela"
+      }
+    ]
+  },
+  {
+    "playlistId": 2,
+    "songList": [
+      {
+        "id": 0,
+        "title": "Brasileiro",
+        "path": "mp3/Bonde do Metaleiro/Bonde do Metaleiro - Brasileiro (Áudio Oficial) (320 kbps).mp3",
+        "author": "Bonde do Metaleiro"
+      },
+      {
+        "id": 1,
+        "title": "Eu Preciso de Café",
+        "path": "mp3/Bonde do Metaleiro/Bonde do Metaleiro - Eu Preciso de Café (Áudio Oficial) (320 kbps).mp3",
+        "author": "Bonde do Metaleiro"
+      },
+      {
+        "id": 2,
+        "title": "Foda-se o Sistema",
+        "path": "mp3/Bonde do Metaleiro/Bonde do Metaleiro - Foda-se o Sistema (Operacional) (Áudio Oficial) (320 kbps).mp3",
+        "author": "Bonde do Metaleiro"
+      }
+    ]
+  },
+  {
+    "playlistId": 3,
+    "songList": [
+      {
+        "id": 0,
+        "title": "Didático",
+        "path": "mp3/Dead Fish/Dead Fish - Didático (30 + 1 Pt.2) (320 kbps).mp3",
+        "author": "Dead Fish"
+      },
+      {
+        "id": 1,
+        "title": "Eleito por Ninguém",
+        "path": "mp3/Dead Fish/Dead Fish - Eleito Por Ninguém (30 + 1 Pt.2) (320 kbps).mp3",
+        "author": "Dead Fish"
+      },
+      {
+        "id": 2,
+        "title": "Você",
+        "path": "mp3/Dead Fish/Dead Fish - Você (30 + 1 Pt.2) (320 kbps).mp3",
+        "author": "Dead Fish"
+      }
+    ]
+  },
+  {
+    "playlistId": 4,
+    "songList": [
+      {
+        "id": 0,
+        "title": "Maria",
+        "path": "mp3/Rage Against the Machine/Maria (320 kbps).mp3",
+        "author": ""
+      },
+      {
+        "id": 1,
+        "title": "Calm Like a Bomb",
+        "path": "mp3/Rage Against the Machine/Rage Against The Machine - Calm Like a Bomb (Audio) (320 kbps).mp3",
+        "author": "Rage Against the Machine"
+      },
+      {
+        "id": 2,
+        "title": "Testify",
+        "path": "mp3/Rage Against the Machine/Rage Against The Machine - Testify (Official HD Video) (320 kbps).mp3",
+        "author": "Rage Against the Machine"
+      }
+    ]
+  },
+  {
+    "playlistId": 5,
+    "songList": [
+      {
+        "id": 0,
+        "title": "Without Me",
+        "path": "mp3/Eminem/without_me.mp3",
+        "author": "Eminem"
+      },
+      {
+        "id": 1,
+        "title": "Cleanin' Out My Closet",
+        "path": "mp3/Eminem/cleanin_closet.mp3",
+        "author": "Eminem"
+      },
+      {
+        "id": 2,
+        "title": "Lose Yourself",
+        "path": "mp3/Eminem/lose_yourself.mp3",
+        "author": "Eminem"
+      }
+    ]
+  }
+]

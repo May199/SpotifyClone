@@ -1,0 +1,28 @@
+.AudioPlayer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 10px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #464545;
+}
+
+.AudioPlayer button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.AudioPlayer span {
+  color: lightgray;
+}
+
+.AudioPlayer span + span {
+  margin-left: auto;
+}

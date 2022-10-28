@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "cover": "cover/CANIL.jpg",
+    "playlistName": "Canil"
+  },
+  {
+    "id": 1,
+    "cover": "cover/Banda Marília Gabriela.jpg",
+    "playlistName": "Banda Marília Gabriela"
+  },
+  {
+    "id": 2,
+    "cover": "cover/Bonde do Metaleiro.jpg",
+    "playlistName": "Bonde do Metaleiro"
+  },
+  {
+    "id": 3,
+    "cover": "cover/Dead Fish.png",
+    "playlistName": "Dead Fish"
+  },
+  {
+    "id": 4,
+    "cover": "cover/Rage Against the Machine.jpg",
+    "playlistName": "Rage Against the Machine"
+  },
+  {
+    "id": 5,
+    "cover": "cover/EMINEM.jpg",
+    "playlistName": "Eminem"
+  },
+  {
+    "id": 6,
+    "userId": 0,
+    "cover": "cover/1666746106008_mqdefault.jpg",
+    "playlistName": "tese"
+  }
+]
