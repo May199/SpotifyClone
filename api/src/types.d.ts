@@ -18,6 +18,11 @@ type TSongList = {
   songList: Array<TSong>
 }
 
+type TMusicsList = {
+  Musics: number,
+  songList: Array<TSong>
+}
+
 type TPlaylist = {
   userId?: number,
   id: number,

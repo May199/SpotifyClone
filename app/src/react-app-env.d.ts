@@ -14,6 +14,11 @@ export interface TSongList {
   songList: Array<TSong>;
 }
 
+export interface TMusicsList {
+  Musics: number,
+  songList: Array<TSong>
+}
+
 export interface TPlaylist {
   userId?: number;
   id: number;

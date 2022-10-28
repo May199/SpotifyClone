@@ -7,7 +7,6 @@ import Login from './pages/Login';
 import FAQ from './pages/FAQ';
 import Profile from './pages/Profile';
 import Update from './pages/Update';
-import NotFound from './pages/NotFound';
 import AddPlaylist from './pages/AddPlaylist';
 
 
@@ -41,8 +40,6 @@ const App: React.FC = () => {
           <Route path="/profile/playlist/add" component={AddPlaylist} />
           <Route path="/profile/update/:userURL" component={Update}/>
           <Route path="/faq" component={FAQ} />
-
-          <Route path="*" component={NotFound}/>
         </Switch>
 
         <Footer />

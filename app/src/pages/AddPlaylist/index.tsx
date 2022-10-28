@@ -40,7 +40,7 @@ const AddPlaylist: FC = () => {
           message: response.data.message,
         },
       });
-    } catch (error) {
+    } catch (error: any) {
       const { validation, message } = error.response.data;
       if (validation) {
         validation.body.keys.forEach((el: string, i: number) => {
@@ -79,7 +79,7 @@ const AddPlaylist: FC = () => {
           autoFocus
           name="playlistName"
           type="text"
-          placeholder="E-mail"
+          placeholder="Nome da Playlist"
           onChange={(e) => setPlaylistName(e.target.value)}
           value={playlistName}
         />

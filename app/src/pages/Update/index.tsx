@@ -58,7 +58,7 @@ const Update: FC = () => {
           message: response.data.message,
         },
       });
-    } catch (error) {
+    } catch (error: any) {
       const { validation, message } = error.response.data;
       if (validation) {
         // eslint-disable-next-line array-callback-return

@@ -1,12 +1,11 @@
-import { FC, useEffect, useState } from 'react';
+import { FC, useContext, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-
 import { TPlaylist } from '../../react-app-env';
-
 import Button from '../../components/Button';
 import CardList from '../../components/CardList';
 import Card from '../../components/Card';
 import SuccessBox from '../../components/SuccessBox';
+import AuthContext from '../../contexts/auth';
 
 import api from '../../connections/api';
 
@@ -21,6 +20,8 @@ const MainPage: FC = () => {
   const [playlists, setPlaylists] = useState<TPlaylist[]>([]);
   const [success, setSuccess] = useState(false);
   const [message, setMessage] = useState('');
+  const [MainPageControls, setMainPageControls] = useState(<></>);
+  const { signOut, session } = useContext(AuthContext);
 
   const location = useLocation<LocationProps>();
 
@@ -40,15 +41,32 @@ const MainPage: FC = () => {
     window.history.replaceState({}, document.title);
   }, [location]);
 
+  useEffect(() => {
+    setMainPageControls(
+      session.authenticated ? (
+        <>
+        <h1>Bem-Vindo ao Spotify</h1>
+        <Button gray sm lg circle to="/">
+          Abrir o Web Player
+        </Button>
+        </>
+      ) : (
+        <>
+        <h1>Vá de premium. E seja feliz</h1>
+        <Button to="/register" green lg circle>
+            obter spotify premium
+        </Button>
+        </>
+      )
+    );
+  }, [session]);
+
   return (
     <>
       <SuccessBox success={success}>{message}</SuccessBox>
       <div className="MainPage">
         <div className="container">
-          <h1>Vá de premium. E seja feliz</h1>
-          <Button to="/register" green lg circle>
-            obter spotify premium
-          </Button>
+          {MainPageControls}
         </div>
         <Button
           id="termos"
@@ -65,9 +83,6 @@ const MainPage: FC = () => {
       <div className="SubPage">
         <h1>É música que você quer?</h1>
         <p>Escute uma de nossas playlists gratuitas.</p>
-        <Button gray sm lg circle to="/register">
-          Abrir o Web Player
-        </Button>
 
         <CardList>
           {playlists.map((list: any) => {

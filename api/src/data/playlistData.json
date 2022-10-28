@@ -28,11 +28,5 @@
     "id": 5,
     "cover": "cover/EMINEM.jpg",
     "playlistName": "Eminem"
-  },
-  {
-    "id": 6,
-    "userId": 0,
-    "cover": "cover/1666746106008_mqdefault.jpg",
-    "playlistName": "tese"
   }
 ]
