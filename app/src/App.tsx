@@ -8,6 +8,7 @@ import FAQ from './pages/FAQ';
 import Profile from './pages/Profile';
 import Update from './pages/Update';
 import AddPlaylist from './pages/AddPlaylist';
+import Musics from './pages/Musics';
 
 
 import Navbar from './components/Navbar';
@@ -39,6 +40,7 @@ const App: React.FC = () => {
           <Route exact path="/profile/:nameURL" component={Profile}/>
           <Route path="/profile/playlist/add" component={AddPlaylist} />
           <Route path="/profile/update/:userURL" component={Update}/>
+          <Route path="/Musics" component={Musics}/>
           <Route path="/faq" component={FAQ} />
         </Switch>
 

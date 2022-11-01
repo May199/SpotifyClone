@@ -46,7 +46,7 @@ const MainPage: FC = () => {
       session.authenticated ? (
         <>
         <h1>Bem-Vindo ao Spotify</h1>
-        <Button gray sm lg circle to="/">
+        <Button gray sm lg circle to="/Musics">
           Abrir o Web Player
         </Button>
         </>
@@ -56,6 +56,18 @@ const MainPage: FC = () => {
         <Button to="/register" green lg circle>
             obter spotify premium
         </Button>
+        <div className='Divcenter'>
+        <Button
+          id="termos"
+          to="#"
+          style={{
+            fontSize: '0.9rem',
+            textDecoration: 'underline',
+            textTransform: 'none',
+          }}>
+          *Sujeito a termos e condições.
+        </Button>
+        </div>
         </>
       )
     );
@@ -68,16 +80,6 @@ const MainPage: FC = () => {
         <div className="container">
           {MainPageControls}
         </div>
-        <Button
-          id="termos"
-          to="#"
-          style={{
-            fontSize: '0.9rem',
-            textDecoration: 'underline',
-            textTransform: 'none',
-          }}>
-          *Sujeito a termos e condições.
-        </Button>
       </div>
 
       <div className="SubPage">

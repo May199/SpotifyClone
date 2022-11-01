@@ -1,10 +1,7 @@
 import { FC, useEffect, useState } from 'react';
-
 import { TPlaylist, TSong } from '../../react-app-env';
-
 import AudioPlayer from '../../components/AudioPlayer';
 import api from '../../connections/api';
-
 import './index.css';
 
 interface IPlaylist {

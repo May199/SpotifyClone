@@ -36,6 +36,11 @@
   color: #fff;
 }
 
+.Divcenter {
+  position: flex;
+  margin-right: 20%;
+}
+
 .SubPage {
   position: relative;
   display: flex;

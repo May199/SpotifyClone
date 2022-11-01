@@ -28,5 +28,11 @@
     "id": 5,
     "cover": "cover/EMINEM.jpg",
     "playlistName": "Eminem"
+  },
+  {
+    "id": 6,
+    "userId": 0,
+    "cover": "cover/1667261024825_kon-bleach.png",
+    "playlistName": "teste"
   }
 ]
