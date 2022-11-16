@@ -36,7 +36,6 @@ const Update: FC = () => {
     e.preventDefault();
 
     setErrors([]);
-    window.scrollTo(0, 0);
 
     const user = {
       email,

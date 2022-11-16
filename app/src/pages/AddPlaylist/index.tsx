@@ -23,7 +23,6 @@ const AddPlaylist: FC = () => {
     e.preventDefault();
 
     setErrors([]);
-    window.scrollTo(0, 0);
 
     const formData = new FormData();
     formData.append('playlistName', playlistName);
@@ -72,7 +71,6 @@ const AddPlaylist: FC = () => {
 
   return (
     <div className="AddPlaylist">
-      <h1>Inscrever-se com seu endereço de e-mail</h1>
       {errors.map((err) => err)}
       <form action="#" onSubmit={handleSubmit}>
         <input

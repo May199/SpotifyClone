@@ -28,7 +28,6 @@ const MainPage: FC = () => {
   useEffect(() => {
     api.get('playlists').then((response) => setPlaylists(response.data));
 
-    window.scrollTo(0, 0);
     return () => {};
   }, []);
 

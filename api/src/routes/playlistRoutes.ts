@@ -13,7 +13,6 @@ route.get('/', async (req: Request, res: Response) => {
   if(userId) {
     return res.json(lists.filter((list) => list.userId === parseInt(userId)));
   }
-  
   return res.json(lists.filter((list) => list.userId === undefined));
 });
 
@@ -56,9 +55,7 @@ route.put(
 
     const playlists = await getPlaylistsData();
 
-    const playlistToEdit = playlists.filter( p => p.id === id)[0];
-
-    
+    const playlistToEdit = playlists.filter( p => p.id === id)[0];  
   }
 );
 

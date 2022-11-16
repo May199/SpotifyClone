@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-export default async function setSongListData(newSong: TNewPlaylistSong) {
+export default async function setSongListData(newSong: TNewPlaylistSong){
   const path = __dirname + '/../data/songListData.json'
   let list: TSongList[];
   let listBuff = fs.readFileSync(path);
@@ -24,7 +24,6 @@ export default async function setSongListData(newSong: TNewPlaylistSong) {
         sl.songList = songList
       }
     })
-
   } else {
     const { author, path, title} = newSong
     list.push({ 
