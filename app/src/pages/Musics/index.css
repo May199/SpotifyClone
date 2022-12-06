@@ -1,0 +1,36 @@
+.Musics {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 100px;
+    background-color: #fff;
+  }
+  
+.Musics h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #181818;
+    margin-bottom: 10px;
+}
+.Playlists {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 100px;
+    background-color: #fff;
+}
+
+.Playlists h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #181818;
+    margin-bottom: 10px;
+}

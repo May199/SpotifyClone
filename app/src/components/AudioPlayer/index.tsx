@@ -1,6 +1,5 @@
 import { FC, useEffect, useState } from 'react';
 import { BsPlayFill, BsPauseFill } from 'react-icons/bs';
-
 import './index.css';
 
 interface AudioPlayerProps {
@@ -66,14 +65,17 @@ const AudioPlayer: FC<AudioPlayerProps> = ({ title, author, songURL }) => {
   }
 
   return (
-    <div
+    <div>
+      <div 
       className={'AudioPlayer ' + (playing ? 'selected' : '')}
       onClick={togglePlay}>
-      <button>{buttonIcon}</button>
-      <span>
-        {author} - {title}
-      </span>
-      <span>{elapsed}</span>
+
+        <button>{buttonIcon}</button>
+        <span>
+          {author} - {title}
+        </span>
+        <span>{elapsed}</span>
+      </div>
     </div>
   );
 };

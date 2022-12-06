@@ -136,5 +136,22 @@
         "author": "Eminem"
       }
     ]
+  },
+  {
+    "playlistId": 6,
+    "songList": [
+      {
+        "id": 0,
+        "title": "Without Me",
+        "path": "mp3/Eminem/without_me.mp3",
+        "author": "Eminem"
+      },
+      {
+        "id": 1,
+        "title": "Calm Like a Bomb",
+        "path": "mp3/Rage Against the Machine/Rage Against The Machine - Calm Like a Bomb (Audio) (320 kbps).mp3",
+        "author": "Rage Against the Machine"
+      }
+    ]
   }
 ]

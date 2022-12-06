@@ -1,5 +1,4 @@
 import express, { Request, Response } from 'express';
-
 import profileValidation from '@/middleware/profileValidation';
 import getUserData from '@/utils/getUserData';
 import updateUserData from '@/utils/updateUserData';
@@ -35,5 +34,4 @@ route.put(
     return res.status(200).json({ message: result.message });
   }
 );
-
 export default route

@@ -21,6 +21,7 @@ const MainPage: FC = () => {
   const [success, setSuccess] = useState(false);
   const [message, setMessage] = useState('');
   const [MainPageControls, setMainPageControls] = useState(<></>);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { signOut, session } = useContext(AuthContext);
 
   const location = useLocation<LocationProps>();

@@ -2,7 +2,6 @@ import { isCelebrateError } from "celebrate";
 import HTTP from 'http'
 
 export default (opts = {}) => {
-
   const statusCode = 400
   return (err: any, req: any, res: any, next: any) => {
   // If this isn't a Celebrate error, send it to the next error handler

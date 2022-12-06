@@ -37,4 +37,6 @@ route.post(
   }
 );
 
+route.put('/update');
+
 export default route;

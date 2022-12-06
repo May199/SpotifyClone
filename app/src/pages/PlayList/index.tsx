@@ -1,8 +1,10 @@
 import { FC, useEffect, useState } from 'react';
 import { TPlaylist, TSong } from '../../react-app-env';
 import AudioPlayer from '../../components/AudioPlayer';
+import AddMusic from '../../components/AddMusic';
 import api from '../../connections/api';
 import './index.css';
+import { url } from 'inspector';
 
 interface IPlaylist {
   id: number;
@@ -29,10 +31,13 @@ const PlayList: FC<IPlaylist> = ({ id }) => {
         className="bg-image"
         style={{
           backgroundImage: `url(${baseURL + playlistInfo!.cover})`,
+          height: '200px',
+          width: '300px',
         }}></div>
 
       <div className="PlayList">
         <h1>{playlistInfo!.playlistName}</h1>
+        <AddMusic/>
 
         <div className="player-box">
           <img src={baseURL + playlistInfo!.cover} alt="" />

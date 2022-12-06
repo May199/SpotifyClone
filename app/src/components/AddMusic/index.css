@@ -1,0 +1,27 @@
+div[role='menu'] {
+    visibility: hidden;
+}
+
+div[role='menu'].visible {
+    visibility: visible;
+}
+.myButton {
+	background-color:transparent;
+	border-radius:42px;
+    border-color: gray;
+    cursor: pointer;
+	text-decoration:none;
+    width: 25px;
+    height: 25px;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.PlaylistColor {
+    color: white;
+    cursor: pointer;
+}
